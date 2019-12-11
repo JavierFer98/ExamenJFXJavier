@@ -1,0 +1,65 @@
+.cabecera{
+	-fx-background-image: url("sky.jpeg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+	
+}
+.perfil{
+	-fx-background-image: url("profilephoto.png");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+	
+}
+.perfil2{
+	-fx-background-image: url("hola.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+	
+}
+.perfil3{
+	-fx-background-image: url("adios.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+	
+}
+.abajo{
+	-fx-background-color: orange;
+}
+@font-face { 
+    font-family: PiroetOne; 
+    src: url('PoiretOne-Regular.ttf'); 
+} 
+.b1{
+	-fx-background-color: orange;
+	-fx-border-color: white;
+	-fx-text-fill: white;
+	
+  	-fx-border-width: 2;
+}
+
+.b1:hover{
+	-fx-background-color: yellow;
+	-fx-border-color: yellow;
+	-fx-text-fill: red;
+	-fx-border-width: 2;	 
+}
+.titulo{
+    -fx-font-size: 25.0px;
+    -fx-font-family: 'PiroetOne'; 
+    
+}
+.botonflechas{
+	-fx-background-color: orange;
+	-fx-border-color: yellow;
+	-fx-text-fill: white;
+	-fx-background-radius: 16.4, 15;
+  	-fx-background-insets: -1.4, 0;
+  	-fx-border-radius: 15;
+  	-fx-border-width: 2;
+}
+
+.botonflechas:hover{
+	-fx-background-color: red;
+	-fx-border-color: orange;
+	-fx-text-fill: white;	 
+}

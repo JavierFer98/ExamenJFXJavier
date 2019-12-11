@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="ventanaSecundaria" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorRocket">
+   <children>
+      <Label layoutX="139.0" layoutY="27.0" styleClass="titulo" stylesheets="@application.css" text="Bienvenido a nuestra app misitica" wrapText="true" />
+      <Button layoutX="97.0" layoutY="88.0" mnemonicParsing="false" styleClass="b1" stylesheets="@application.css" text="Menu" />
+      <Button layoutX="271.0" layoutY="315.0" mnemonicParsing="false" onAction="#backAction" styleClass="botonflechas" stylesheets="@application.css" text="&lt;" />
+      <Button layoutX="483.0" layoutY="88.0" mnemonicParsing="false" styleClass="b1" stylesheets="@application.css" text="Perfil" />
+      <Button layoutX="355.0" layoutY="315.0" mnemonicParsing="false" onAction="#nextAction" styleClass="botonflechas" stylesheets="@application.css" text="&gt;" />
+      <Pane fx:id="pane1" layoutX="218.0" layoutY="88.0" prefHeight="218.0" prefWidth="211.0" styleClass="perfil" stylesheets="@application.css" />
+      <Pane fx:id="pane2" layoutX="217.0" layoutY="88.0" prefHeight="218.0" prefWidth="211.0" styleClass="perfil2" stylesheets="@application.css" />
+      <Pane fx:id="pane3" layoutX="217.0" layoutY="88.0" prefHeight="218.0" prefWidth="211.0" styleClass="perfil3" stylesheets="@application.css" />
+      <Label fx:id="countLabel" layoutX="310.0" layoutY="354.0" onDragDetected="#nextAction" />
+   </children>
+</AnchorPane>
