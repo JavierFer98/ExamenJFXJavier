@@ -60,14 +60,7 @@ public class ControladorRocket {
 
           
 
-           /**
-
-           * Metodo void que carga la segunda ventana de la aplicación
-
-           * @return no tiene retorno
-
-           */
-
+         
            public void openStage() {
 
                        FXMLLoader loader = new FXMLLoader(getClass().getResource("Mars.fxml"));
@@ -98,13 +91,7 @@ public class ControladorRocket {
 
           
 
-           /**
-
-           * Metodo void que cierra el stage de la primera ventana de la aplicación
-
-           * @return no tiene retorno
-
-           */
+         
 
            public void closeApp() {
 
